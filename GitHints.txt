@@ -1,0 +1,18 @@
+git version
+git config --global user.name "Paolo Galletto"
+git config --global user.email "paolo@pinna.info"
+git config --global --list
+git clone github-https-url # paste in your GitHub HTTPS clone URL (from your GitHub account)
+ls
+cd ph-app
+ls
+git status
+echo "Test Git demo" >> start.txt
+ls
+cat start.txt
+git status
+git add start.txt
+git status
+git commit -m "Adding start text file"
+git status
+git push origin master
